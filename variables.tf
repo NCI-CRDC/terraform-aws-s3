@@ -37,14 +37,8 @@ variable "force_destroy" {
   default     = false
 }
 
-variable "versioning" {
-  type        = bool
-  description = "enable object versioning - either 'Enabled' or 'Disabled'"
-  default     = "Enabled"
-}
-
 variable "log_enabled" {
-  type        = string
+  type        = bool
   description = "enable s3 server-side logging"
   default     = true
 }
@@ -58,4 +52,10 @@ variable "log_prefix" {
   type        = string
   description = "the prefix for the log directories - if not provided, defaults to root s3 directory"
   default     = null
+}
+
+variable "versioning" {
+  type        = string
+  description = "enable object versioning - either 'Enabled' or 'Disabled'"
+  default     = "Enabled"
 }
