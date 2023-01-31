@@ -1,5 +1,5 @@
 resource "aws_s3_bucket" "this" {
-  bucket        = "${local.stack}-${var.bucket-suffix}"
+  bucket        = "${local.stack}-${var.bucket_suffix}"
   force_destroy = var.force_destroy
 }
 
