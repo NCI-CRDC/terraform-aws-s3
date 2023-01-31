@@ -14,6 +14,7 @@ variable "env" {
     error_message = "valid values for env are 'dev', 'qa', 'stage', 'prod', and 'nonprod'"
   }
 }
+
 variable "program" {
   type        = string
   description = "the program associated with the application"
@@ -39,11 +40,11 @@ variable "force_destroy" {
 variable "versioning" {
   type        = bool
   description = "enable object versioning - either 'Enabled' or 'Disabled'"
-  default     = true
+  default     = "Enabled"
 }
 
 variable "log_enabled" {
-  type        = bool
+  type        = string
   description = "enable s3 server-side logging"
   default     = true
 }
