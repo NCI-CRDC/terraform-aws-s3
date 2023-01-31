@@ -40,10 +40,10 @@ No modules.
 | <a name="input_env"></a> [env](#input\_env) | the target tier ('dev', 'qa', 'stage', or 'prod'.) | `string` | n/a | yes |
 | <a name="input_force_destroy"></a> [force\_destroy](#input\_force\_destroy) | whether to destroy all objects in the bucket prior to deleting bucket | `bool` | `false` | no |
 | <a name="input_log_bucket"></a> [log\_bucket](#input\_log\_bucket) | the destination log bucket name or id | `string` | n/a | yes |
-| <a name="input_log_enabled"></a> [log\_enabled](#input\_log\_enabled) | enable s3 server-side logging | `string` | `true` | no |
+| <a name="input_log_enabled"></a> [log\_enabled](#input\_log\_enabled) | enable s3 server-side logging | `bool` | `true` | no |
 | <a name="input_log_prefix"></a> [log\_prefix](#input\_log\_prefix) | the prefix for the log directories - if not provided, defaults to root s3 directory | `string` | `null` | no |
 | <a name="input_program"></a> [program](#input\_program) | the program associated with the application | `string` | n/a | yes |
-| <a name="input_versioning"></a> [versioning](#input\_versioning) | enable object versioning - either 'Enabled' or 'Disabled' | `bool` | `"Enabled"` | no |
+| <a name="input_versioning"></a> [versioning](#input\_versioning) | enable object versioning - either 'Enabled' or 'Disabled' | `string` | `"Enabled"` | no |
 
 # Outputs
 
