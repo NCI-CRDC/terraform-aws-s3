@@ -1,4 +1,7 @@
 # Terraform AWS Module Template
+
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8e7cd989479b452aba3400f3c1cb74a3)](https://app.codacy.com/gh/NCI-CTOS/terraform-aws-s3?utm_source=github.com&utm_medium=referral&utm_content=NCI-CTOS/terraform-aws-s3&utm_campaign=Badge_Grade_Settings)
+
 A repository template for creating reusable terraform modules to support infrastructure as code capabilities for workloads running on AWS. 
 
 # Overview
